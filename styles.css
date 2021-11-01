@@ -1,0 +1,208 @@
+body {
+    font-family: 'inter';
+}
+.header {
+    max-width: 1301px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0;
+    margin-bottom: 40px;
+}
+.navigation_list {
+    display: flex;
+    list-style: none;
+}
+.navigation_item {
+    margin-left: 34px;
+}
+.navigation_list:first-child {
+    margin-right: 0px;
+}
+.navigation_link {
+    color: #B8BECD;;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.home {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #202336;
+}
+.login {
+    border: 1px solid #FB8F1D;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 132px;
+    height: 44px;
+    color: #FB8F1D;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    background: white;
+    margin-left: 34px;
+}
+.account {
+    display: flex;
+}
+.register {
+    border: 1px solid #FB8F1D;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    width: 132px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18px;
+    background: #FB8F1D;
+    color: white;
+}
+ .block {
+     display: flex;
+     justify-content: space-between;
+ }
+ .heading {
+    max-width: 1301px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 103px;
+ }
+ .heading_title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+}
+.heading_description {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+}
+.heading_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 187px;
+    height: 52px;
+    max-width: 100%;
+    background: #FB8F1D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 60px;  
+    color: #FFFFFF;  
+    text-decoration: none;
+    transform: all .3s ease-in-out ;
+    margin-top: 33px;
+}
+.heading_btn:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+.introduction {
+    max-width: 1301px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.introduction_description {
+    max-width: 450px;
+}
+.introduction_title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.introduction_description {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 39px;
+}
+.guides_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.guides_description {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    max-width: 450px;
+    margin: 0;
+}
+.testimonials {
+    max-width: 1301px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 264px;
+}
+.testimonials_title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 145px;
+}
+.testimonials_rate {
+    display: flex;
+    margin-bottom: 30px;
+}
+.testimonials_description {
+    max-width: 450px;
+    margin-bottom: 40px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.testimonials_autor {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+}
+.testimonials_position {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85)
+}
